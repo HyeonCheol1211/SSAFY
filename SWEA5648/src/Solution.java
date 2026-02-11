@@ -19,7 +19,7 @@ public class Solution {
 			}
 
 			int rst = 0;
-			while (time < 2004) {
+			while (time < 4001) {
 				move(list);
 				rst += explode(list);
 				time++;
@@ -41,7 +41,6 @@ public class Solution {
 
 		for (int i = list.size() - 1; i >= 0; i--) {
 			Atom a = list.get(i);
-			Position pos = new Position(a);
 			if (map.get(a) > 1) {
 				rst += a.power;
 				list.remove(i);

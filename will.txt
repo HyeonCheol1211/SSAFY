@@ -1,3 +1,9 @@
+0211
+PromanagerSoldier
+SWEA2805
+
+
+
 SWEA
 8275 햄스터
 4130 자석톱니바퀴
