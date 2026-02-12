@@ -1,6 +1,8 @@
 0211
 PromanagerSoldier
 
+BOJ2825 : 상근이 뭐시기
+
 SWEA
 8275 햄스터
 4130 자석톱니바퀴
