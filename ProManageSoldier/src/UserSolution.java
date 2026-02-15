@@ -1,17 +1,18 @@
 import java.util.HashMap;
 import java.util.Map;
 
-class Member {
-    int team;
-    int score;
-
-    public Member(int team, int score) {
-        this.team = team;
-        this.score = score;
-    }
-}
-
 public class UserSolution {
+
+    public static class Member {
+        int team;
+        int score;
+
+        public Member(int team, int score) {
+            this.team = team;
+            this.score = score;
+        }
+    }
+
     HashMap<Integer, Member> allMembers;
     HashMap<Integer, Member>[] teamMaps;
 
